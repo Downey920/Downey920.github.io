@@ -1,0 +1,12 @@
+@import "../../styles/variable";
+
+.front {
+  .inner {
+    max-width: $maxWidth;
+    margin: auto;
+    padding: 4rem 0;
+    .breadcrumb {
+      font-size: 2rem;
+    }
+  }
+}

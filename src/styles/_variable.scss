@@ -16,22 +16,12 @@ $blue300: #002c5f !default;
 // Size
 $maxWidth: 80rem;
 
+// Font
+$fontFamily: "Karla", sans-serif;
+
 // Elements
 $fontColor100: $gray500;
 $fontColor200: $gray600;
 $fontColor300: $gray800;
 $logoColor: $blue300;
-
-// Elements
-// $bg: $white !default;
-// $bg-dark: $gray-500 !default; // example
-// $cont-bg: $white !default;
-// $text-color: $black !default;
-// $listheader-bg: #9faab7 !default;
-// $headertop-bg: $color-primary2 !default;
-// $gnb-bg: $white !default;
-// $footer-bg: $black !default;
-// $cntBar-color: #7e97f8 !default;
-// $vehicleBar-color: #59cfd9 !default;
-// $validation-color: #cb5258 !default;
-// $hover-color: #eff5fb !default;
+$backgroundColor: #f7f8f8;

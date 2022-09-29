@@ -1,5 +1,38 @@
 @import "./styles/reset";
+@import "./styles/variable";
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap");
 
+// Global
 html {
   font-size: 15px;
+  font-family: $fontFamily;
+  font-weight: 400;
+}
+
+a {
+  color: $black;
+  text-decoration: none;
+}
+
+.app {
+  // overflow: hidden;
+  background-color: $backgroundColor;
+}
+
+// Scroll
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  // background-color: transparent;
+  background-color: $backgroundColor;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background-color: $gray500;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
 }

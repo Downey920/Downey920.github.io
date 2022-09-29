@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap");
 html,
 body,
 div,
@@ -135,4 +136,34 @@ table {
 
 html {
   font-size: 15px;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.app {
+  background-color: #f7f8f8;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f7f8f8;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background-color: #cccccc;
+}
+
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
 }

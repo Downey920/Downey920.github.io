@@ -1,7 +1,12 @@
 .header {
   width: 100%;
-  height: 3.5rem;
+  height: 3.4rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
   border-bottom: 1px solid #edeeef;
+  z-index: 1;
 }
 .header .inner {
   max-width: 80rem;
@@ -12,12 +17,13 @@
 }
 .header .inner .logoContainer {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .header .inner .logoContainer .logo {
   color: #002c5f;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 .header .inner .menu {
   display: flex;
@@ -26,5 +32,15 @@
 }
 .header .inner .menu__item {
   margin-right: 1rem;
+  padding: 0.6rem;
   color: #666666;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.header .inner .menu__item:last-child {
+  margin-right: 0;
+}
+.header .inner .menu__item:hover {
+  background-color: #f6f3f2;
 }

@@ -1,0 +1,32 @@
+@import "../../styles/variable";
+
+.header {
+  width: 100%;
+  height: 3.5rem;
+  border-bottom: 1px solid $gray300;
+  .inner {
+    max-width: $maxWidth;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    .logoContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .logo {
+        color: $logoColor;
+        font-size: 1.5rem;
+      }
+    }
+    .menu {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      &__item {
+        margin-right: 1rem;
+        color: $fontColor300;
+      }
+    }
+  }
+}

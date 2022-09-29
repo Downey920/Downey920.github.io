@@ -9,9 +9,12 @@ $gray500: #cccccc !default;
 $gray600: #999999 !default;
 $gray700: #888888 !default;
 $gray800: #666666 !default;
+$gray900: #333d4b !default;
 $blue100: #b2e5f1 !default;
 $blue200: #00aad2 !default;
-$blue300: #002c5f !default;
+$blue300: #3182f6 !default;
+$blue400: #2272eb !default;
+$blue600: #002c5f !default;
 
 // Size
 $maxWidth: 80rem;
@@ -23,5 +26,5 @@ $fontFamily: "Karla", sans-serif;
 $fontColor100: $gray500;
 $fontColor200: $gray600;
 $fontColor300: $gray800;
-$logoColor: $blue300;
+$logoColor: $blue600;
 $backgroundColor: #f7f8f8;

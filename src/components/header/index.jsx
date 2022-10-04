@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./header.module.scss";
+import Nav from "../nav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
@@ -13,17 +14,7 @@ const Header = () => {
             <FontAwesomeIcon className={styles.logo} icon={faCode} />
           </Link>
         </div>
-        <ul className={styles.menu}>
-          <li className={styles.menu__item}>
-            <Link to="/front">Front-End</Link>
-          </li>
-          <li className={styles.menu__item}>
-            <Link to="/back">Back-End</Link>
-          </li>
-          <li className={styles.menu__item}>
-            <Link to="/cs">CS</Link>
-          </li>
-        </ul>
+        <Nav />
       </div>
     </header>
   );

@@ -2,9 +2,7 @@
 
 .front {
   .inner {
-    max-width: $maxWidth;
-    margin: auto;
-    padding: 4rem 0;
+    @include inner;
     .breadcrumb {
       font-size: 2rem;
     }

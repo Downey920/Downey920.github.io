@@ -28,3 +28,9 @@ $fontColor200: $gray600;
 $fontColor300: $gray800;
 $logoColor: $blue600;
 $backgroundColor: #f7f8f8;
+
+@mixin inner {
+  max-width: $maxWidth;
+  margin: auto;
+  padding: 4rem 1rem;
+}

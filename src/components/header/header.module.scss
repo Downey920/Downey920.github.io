@@ -9,9 +9,10 @@
   border-bottom: 1px solid $gray300;
   z-index: 1;
   .inner {
-    max-width: $maxWidth;
     height: 100%;
+    max-width: $maxWidth;
     margin: auto;
+    padding: 0 1rem;
     display: grid;
     grid-template-columns: 5rem 1fr;
     .logoContainer {
@@ -22,25 +23,6 @@
         color: $logoColor;
         font-size: 1.5rem;
         cursor: pointer;
-      }
-    }
-    .menu {
-      display: flex;
-      justify-content: right;
-      align-items: center;
-      &__item {
-        margin-right: 1rem;
-        padding: 0.6rem;
-        color: $fontColor300;
-        font-weight: 500;
-        border-radius: 0.5rem;
-        cursor: pointer;
-        &:last-child {
-          margin-right: 0;
-        }
-        &:hover {
-          background-color: $gray100;
-        }
       }
     }
   }

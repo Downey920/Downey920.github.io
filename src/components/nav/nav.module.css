@@ -1,0 +1,20 @@
+.nav .menu {
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.nav .menu__item {
+  margin-right: 1rem;
+  padding: 0.6rem;
+  color: #666666;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.nav .menu__item:last-child {
+  margin-right: 0;
+}
+.nav .menu__item:hover {
+  background-color: #f6f3f2;
+}

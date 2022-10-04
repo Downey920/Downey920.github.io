@@ -1,7 +1,7 @@
 .front .inner {
   max-width: 80rem;
   margin: auto;
-  padding: 4rem 0;
+  padding: 4rem 1rem;
 }
 .front .inner .breadcrumb {
   font-size: 2rem;
